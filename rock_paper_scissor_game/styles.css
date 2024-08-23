@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+h1{
+ border-radius: 0px 0px 265px 265px;
+font-size: 2rem;
+text-align: center;
+background-color: blueviolet;
+color: white;
+padding: 10px;
+font-family: monospace;
+
+}
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+img{ -webkit-tap-highlight-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    transition: all 0.5s ease-in-out;
+}
+.image p{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+.choice:active{
+    opacity: 0.8;
+    scale: 0.95;
+}
+
+.choice:focus{
+    opacity: 0.8;
+    scale: 0.95;
+}
+
+.choice img:hover{
+    border: 10px solid purple;
+  cursor: pointer;  
+}
+.score-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+#user-score, #computer-score{
+    font-size: 2rem;
+}
+.score-section .outer-div{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    height: 100px;
+    width: 85px;
+    background-color: blueviolet;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    
+}
+.msg-container{
+    margin-top: 3rem;
+    
+}
+h2{
+   display: inline;
+    border-radius: 4px;
+    text-align: center; background-color: blueviolet;
+    font-size: 1.5rem;
+    padding: 1rem;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+footer{
+height:30vh;
+background-color: black;
+color: rgb(160, 163, 165);
+display: flex;
+margin-top: 85px;
+flex-direction: column;
+justify-content: center;
+}
